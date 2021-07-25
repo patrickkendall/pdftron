@@ -1,0 +1,36 @@
+{
+  "name": "pdf-append-image",
+  "version": "1.0.0",
+  "description": "Script for appending image for PDF files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdidev/pdf-append-image.git"
+  },
+  "keywords": [
+    "PDF",
+    "script",
+    "append",
+    "image"
+  ],
+  "author": "Dmitry \"iamdi\" Shvetsov <helloiamdi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdidev/pdf-append-image/issues"
+  },
+  "homepage": "https://github.com/iamdidev/pdf-append-image#readme",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.0.0-3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pdf-lib": "1.6.0",
+    "pizzip": "^3.0.6"
+  },
+  "engines": {
+    "node": ">=12.4.0"
+  }
+}
